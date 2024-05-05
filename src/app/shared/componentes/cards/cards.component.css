@@ -1,0 +1,37 @@
+.box-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    height: 200px;
+    justify-content: center;
+    gap: 20px;
+    z-index: 1;
+}
+
+.cards-info {
+    border: 2px solid #f7f7f7;
+    position: relative;
+    max-width: 300px;
+    top: -100px;
+    height: 280px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+img, p {
+    position: relative;
+}
+
+.cards-info img {
+    max-width: 40px;
+    padding: 20px 20px 0 20px;
+}
+
+.cards-info p {
+    padding: 0 25px;
+    text-align: justify;
+}
+
+section {
+    background-color: #f7f7f7;
+}

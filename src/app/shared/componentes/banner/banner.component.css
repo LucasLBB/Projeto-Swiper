@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+img {
+    max-width: 100%;
+    width: 100vw;
+    max-height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
