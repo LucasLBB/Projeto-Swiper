@@ -1,0 +1,23 @@
+section{
+    background-color: #f7f7f7;
+}
+
+h3{
+    margin: 0;
+}
+
+.container-footer {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(150px,300px));
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.infos {
+    display: grid;
+    place-self: center;
+}
+
+.infos-contato  p{
+    margin: 5px;
+}

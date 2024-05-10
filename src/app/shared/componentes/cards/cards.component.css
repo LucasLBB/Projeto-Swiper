@@ -1,18 +1,18 @@
-.box-cards {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    height: 200px;
-    justify-content: center;
-    gap: 20px;
-    z-index: 1;
+
+
+.swiper-wrapper {
+    justify-self: center;
+}
+
+swiper-container {
+    width: 1200px;
 }
 
 .cards-info {
     border: 2px solid #f7f7f7;
     position: relative;
     max-width: 300px;
-    top: -100px;
+    min-width: 150px;
     height: 280px;
     background-color: #fff;
     border-radius: 6px;
